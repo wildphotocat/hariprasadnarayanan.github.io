@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Hariprasad Narayanan | Academic Digital Services · LaTeX, Conference Design, Research Websites</title>
+<meta name="description" content="Academic digital services by Dr. Hariprasad Narayanan (PhD, IIT Madras) — LaTeX typesetting, Word-to-LaTeX conversion, conference brochure design, research website development, report design, and science communication. PhD researcher in CO₂ photocatalysis and industrial decarbonisation. Based in Bengaluru, India. Serving academia, research labs, NGOs, and institutions worldwide.">
+<meta name="keywords" content="Hariprasad Narayanan, LaTeX typesetting service, Word to LaTeX conversion, conference brochure design, academic website design, research website, report design, conference brochure template, HTML to PDF, word to PDF, vector image, molecular illustration, science communication, catalysis, CO2 reduction, graphitic carbon nitride, academic digital services, decarbonization, sustainable aviation fuel, IIT Madras, CUSAT, Bengaluru">
+<meta name="author" content="Dr. Hariprasad Narayanan">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://hariprasadnarayanan.github.io/">
+<meta name="geo.region" content="IN-KA">
+<meta name="geo.placename" content="Bengaluru, Karnataka, India">
+<meta name="geo.position" content="13.0334;77.5562">
+<meta name="ICBM" content="13.0334, 77.5562">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+<meta property="og:title" content="Dr. Hariprasad Narayanan | LaTeX Typesetting · Conference Design · Research Websites · Bengaluru">
+<meta property="og:description" content="Academic digital services: LaTeX typesetting, Word-to-LaTeX, conference brochure &amp; website design, report templates, science communication. PhD researcher in CO₂ photocatalysis. Bengaluru, India.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/0?v=4">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://hariprasadnarayanan.github.io">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@hariprasadnaray">
+<meta name="twitter:creator" content="@hariprasadnaray">
+<meta name="twitter:title" content="Dr. Hariprasad Narayanan | LaTeX Typesetting · Conference Design · Research Websites · Bengaluru">
+<meta name="twitter:description" content="PhD in photocatalytic CO₂ reduction · Academic Digital Services · Catalysis Education Newsletter">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400;1,8..60,600&family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+@font-face { font-family: 'TeX Gyre Heros'; src: local('TeX Gyre Heros'), local('TeXGyreHeros'), local('texgyreheros-regular'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'TeX Gyre Heros'; src: local('TeX Gyre Heros Italic'), local('TeXGyreHeros-Italic'), local('texgyreheros-italic'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'TeX Gyre Heros'; src: local('TeX Gyre Heros Bold'), local('TeXGyreHeros-Bold'), local('texgyreheros-bold'); font-weight: 700; font-style: normal; font-display: swap; }
+</style>
+<style>
+:root {
+  --navy: #07090F; --navy-1: #0C1020; --navy-2: #111827; --navy-3: #1A2236;
+  --gold: #C8972A; --gold-light: #E2B45A; --gold-dim: #8B6519;
+  --teal: #2BCFC3; --teal-dim: #1A8A81;
+  --text: #EDE8DC; --text-2: #B8B0A0; --text-3: #6E6760;
+  --border: rgba(200,151,42,0.18); --border-dim: rgba(255,255,255,0.06); --r: 6px;
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'Source Code Pro', monospace;
+  --font-body: 'TeX Gyre Heros', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { background: var(--navy); color: var(--text); font-family: var(--font-body); font-weight: 400; line-height: 1.78; overflow-x: hidden; }
+a { color: var(--gold-light); text-decoration: none; transition: color .2s; }
+a:hover { color: var(--teal); }
+img { max-width: 100%; display: block; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--navy-1); }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 10px; }
+.container { max-width: 1160px; margin: 0 auto; padding: 0 2rem; }
+.gold { color: var(--gold-light); } .teal { color: var(--teal); } .mono { font-family: var(--font-mono); }
+.section-label { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; color: var(--teal); margin-bottom: .8rem; }
+.section-title { font-family: var(--font-display); font-size: clamp(1.9rem, 3.5vw, 2.9rem); font-weight: 700; line-height: 1.15; letter-spacing: -.01em; color: var(--text); margin-bottom: 1rem; }
+.divider { width: 48px; height: 2px; background: linear-gradient(90deg, var(--gold), transparent); margin: 1.5rem 0; }
+.tag { display: inline-block; font-family: var(--font-mono); font-size: .65rem; letter-spacing: .1em; padding: .25rem .7rem; border: 1px solid var(--border); border-radius: 2px; color: var(--text-2); text-transform: uppercase; margin: .2rem .15rem; }
+.tag.gold { border-color: rgba(200,151,42,.4); color: var(--gold-light); }
+.tag.teal { border-color: rgba(43,207,195,.3); color: var(--teal); }
+#nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; transition: background .4s, padding .4s, border-bottom .4s; }
+#nav.scrolled { background: rgba(7,9,15,.95); border-bottom: 1px solid var(--border-dim); padding: .65rem 2rem; backdrop-filter: blur(12px); }
+.nav-logo { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--gold-light); letter-spacing: -.01em; }
+.nav-logo span { color: var(--text-2); font-weight: 300; }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text-2); transition: color .2s; }
+.nav-links a:hover { color: var(--gold-light); }
+.nav-cta { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; padding: .5rem 1.2rem; border: 1px solid var(--gold-dim); color: var(--gold-light); border-radius: var(--r); transition: background .2s, border-color .2s; }
+.nav-cta:hover { background: rgba(200,151,42,.12); border-color: var(--gold-light); color: var(--gold-light); }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+.hamburger span { width: 22px; height: 1.5px; background: var(--text-2); display: block; transition: .3s; }
+#hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+#hero-canvas { position: absolute; inset: 0; z-index: 0; }
+.hero-grain { position: absolute; inset: 0; z-index: 1; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E"); opacity: .4; pointer-events: none; }
+.hero-gradient { position: absolute; inset: 0; z-index: 1; background: radial-gradient(ellipse 80% 70% at 60% 50%, rgba(12,16,32,.3) 0%, rgba(7,9,15,.85) 70%); }
+.hero-content { position: relative; z-index: 2; padding: 8rem 2rem 5rem; max-width: 1160px; margin: 0 auto; width: 100%; }
+.hero-eyebrow { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .22em; text-transform: uppercase; color: var(--teal); margin-bottom: 1.5rem; opacity: 0; animation: fadeUp .8s .2s forwards; }
+.hero-name { font-family: var(--font-display); font-size: clamp(2.8rem, 6.5vw, 5.5rem); font-weight: 700; line-height: 1.08; letter-spacing: -.01em; color: var(--text); margin-bottom: 1rem; opacity: 0; animation: fadeUp .9s .35s forwards; }
+.hero-name em { font-style: italic; color: var(--gold-light); }
+.hero-sub { font-family: var(--font-body); font-size: clamp(1rem, 1.8vw, 1.2rem); font-weight: 400; color: var(--text-2); max-width: 640px; margin-bottom: 2.5rem; line-height: 1.85; opacity: 0; animation: fadeUp .9s .5s forwards; }
+.hero-pills { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 3rem; opacity: 0; animation: fadeUp .9s .65s forwards; }
+.hero-pill { font-family: var(--font-mono); font-size: .63rem; letter-spacing: .12em; text-transform: uppercase; padding: .35rem .85rem; border-radius: 2px; border: 1px solid var(--border); color: var(--text-2); background: rgba(255,255,255,.02); }
+.hero-pill.active { border-color: rgba(200,151,42,.5); color: var(--gold-light); background: rgba(200,151,42,.06); }
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; opacity: 0; animation: fadeUp .9s .8s forwards; }
+.btn-primary { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; padding: .85rem 2rem; background: linear-gradient(135deg, var(--gold), var(--gold-dim)); color: var(--navy); border-radius: var(--r); font-weight: 500; transition: opacity .2s, transform .2s; border: none; }
+.btn-primary:hover { opacity: .85; transform: translateY(-1px); color: var(--navy); }
+.btn-outline { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; padding: .85rem 2rem; border: 1px solid var(--border); color: var(--text-2); border-radius: var(--r); background: transparent; transition: border-color .2s, color .2s, background .2s; }
+.btn-outline:hover { border-color: var(--teal); color: var(--teal); background: rgba(43,207,195,.06); }
+.hero-stats { position: absolute; bottom: 2.5rem; right: 2rem; z-index: 2; display: flex; gap: 2.5rem; opacity: 0; animation: fadeUp .9s 1s forwards; }
+.hero-stat-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 600; color: var(--gold-light); line-height: 1; }
+.hero-stat-label { font-family: var(--font-mono); font-size: .6rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text-3); margin-top: .3rem; }
+section { padding: 7rem 0; }
+section:nth-child(odd) { background: var(--navy); }
+section:nth-child(even) { background: var(--navy-1); }
+#about { background: var(--navy-1) !important; }
+.about-grid { display: grid; grid-template-columns: 280px 1fr; gap: 4rem; align-items: start; }
+.about-photo-wrap { position: sticky; top: 6rem; }
+.about-photo-frame { width: 240px; height: 240px; border-radius: 50%; background: linear-gradient(135deg, var(--navy-3), var(--navy-2)); border: 2px solid var(--border); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; box-shadow: 0 0 40px rgba(200,151,42,.12); }
+.about-photo-frame::before { content: ''; position: absolute; inset: -2px; background: conic-gradient(var(--gold), var(--teal), var(--gold)); border-radius: 50%; z-index: -1; animation: spin 8s linear infinite; }
+.about-photo-frame::after { content: ''; position: absolute; inset: 3px; background: var(--navy-2); border-radius: 50%; }
+.about-initials { font-family: var(--font-display); font-size: 3.5rem; font-weight: 600; color: var(--gold-light); position: relative; z-index: 1; letter-spacing: .05em; }
+.about-links { display: flex; flex-direction: column; gap: .6rem; margin-top: 1rem; }
+.about-link { display: flex; align-items: center; gap: .6rem; font-family: var(--font-mono); font-size: .66rem; letter-spacing: .08em; color: var(--text-2); padding: .5rem .8rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.02); transition: border-color .2s, color .2s; }
+.about-link:hover { border-color: var(--border); color: var(--gold-light); }
+.about-link-icon { font-size: .8rem; }
+.about-text p { margin-bottom: 1.2rem; font-size: 1.05rem; color: var(--text-2); }
+.expertise-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+.expertise-card { padding: 1.3rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.02); transition: border-color .3s; }
+.expertise-card:hover { border-color: var(--border); }
+.expertise-card h4 { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-light); margin-bottom: .7rem; }
+.expertise-card ul { list-style: none; }
+.expertise-card ul li { font-size: .9rem; color: var(--text-2); padding: .2rem 0; padding-left: 1rem; position: relative; }
+.expertise-card ul li::before { content: '→'; position: absolute; left: 0; color: var(--teal-dim); font-size: .8rem; }
+#research { background: var(--navy) !important; }
+.research-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1rem; }
+.research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 3rem; }
+.research-card { padding: 2rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: var(--navy-1); position: relative; overflow: hidden; transition: border-color .3s, transform .3s; }
+.research-card:hover { border-color: var(--border); transform: translateY(-3px); }
+.research-card.featured { grid-column: span 2; background: linear-gradient(135deg, var(--navy-1), var(--navy-2)); }
+.research-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--gold-dim), transparent); opacity: 0; transition: opacity .3s; }
+.research-card:hover::before { opacity: 1; }
+.research-card-period { font-family: var(--font-mono); font-size: .63rem; letter-spacing: .12em; color: var(--teal); margin-bottom: .8rem; }
+.research-card h3 { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--text); margin-bottom: .8rem; line-height: 1.3; }
+.research-card p { font-size: .95rem; color: var(--text-2); margin-bottom: 1rem; }
+.research-card .tags { margin-top: 1rem; }
+.molecule-svg { position: absolute; bottom: -20px; right: -20px; width: 120px; height: 120px; opacity: .04; }
+#publications { background: var(--navy-1) !important; }
+.pub-list { list-style: none; }
+.pub-item { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; padding: 2rem 0; border-bottom: 1px solid var(--border-dim); opacity: 0; transform: translateY(20px); transition: opacity .5s, transform .5s; }
+.pub-item.visible { opacity: 1; transform: none; }
+.pub-num { font-family: var(--font-mono); font-size: .7rem; color: var(--gold-dim); padding-top: .2rem; min-width: 2rem; }
+.pub-journal { font-family: var(--font-mono); font-size: .65rem; letter-spacing: .1em; color: var(--teal); margin-bottom: .4rem; text-transform: uppercase; }
+.pub-title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 500; color: var(--text); margin-bottom: .5rem; line-height: 1.4; }
+.pub-authors { font-size: .9rem; color: var(--text-3); margin-bottom: .4rem; }
+.pub-authors strong { color: var(--text-2); }
+.pub-year { font-family: var(--font-mono); font-size: .65rem; color: var(--text-3); }
+.pub-link { display: inline-flex; align-items: center; gap: .3rem; font-family: var(--font-mono); font-size: .62rem; letter-spacing: .08em; color: var(--gold-light); margin-top: .5rem; }
+.pub-link:hover { color: var(--teal); }
+.books-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem; }
+.book-card { padding: 1.5rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.02); }
+.book-card h4 { font-family: var(--font-display); font-size: 1rem; font-weight: 500; color: var(--text); margin-bottom: .5rem; line-height: 1.35; }
+.book-card p { font-size: .85rem; color: var(--text-3); }
+.book-publisher { font-family: var(--font-mono); font-size: .62rem; color: var(--teal); margin-top: .5rem; letter-spacing: .08em; }
+#services { background: var(--navy) !important; }
+.services-intro { max-width: 700px; margin-bottom: 4rem; }
+.services-intro p { font-size: 1.1rem; color: var(--text-2); }
+.service-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border-dim); margin-bottom: 3rem; }
+.service-tab { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text-3); padding: .8rem 1.5rem; cursor: pointer; border-bottom: 2px solid transparent; transition: color .2s, border-color .2s; }
+.service-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+.service-panel { display: none; }
+.service-panel.active { display: block; }
+.service-panel-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; align-items: start; }
+.service-desc h3 { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--text); margin-bottom: 1rem; }
+.service-desc p { font-size: 1rem; color: var(--text-2); margin-bottom: 1rem; }
+.service-features { list-style: none; margin: 1.5rem 0; }
+.service-features li { display: flex; align-items: flex-start; gap: .8rem; padding: .6rem 0; border-bottom: 1px solid var(--border-dim); font-size: .95rem; color: var(--text-2); }
+.service-features li::before { content: '◆'; color: var(--gold-dim); font-size: .5rem; margin-top: .35rem; flex-shrink: 0; }
+.pricing-card { background: var(--navy-1); border: 1px solid var(--border-dim); border-radius: 8px; overflow: hidden; }
+.pricing-card-header { background: linear-gradient(135deg, var(--navy-2), var(--navy-3)); padding: 1.5rem 2rem; border-bottom: 1px solid var(--border-dim); }
+.pricing-card-header h4 { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); margin-bottom: .5rem; }
+.pricing-card-header p { font-family: var(--font-display); font-size: 1.1rem; color: var(--text-2); font-style: italic; }
+.pricing-table { width: 100%; }
+.pricing-row { display: grid; grid-template-columns: 1fr auto auto; gap: 1rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-dim); align-items: center; }
+.pricing-row:last-child { border-bottom: none; }
+.pricing-scope { font-size: .9rem; color: var(--text-2); }
+.pricing-inr { font-family: var(--font-mono); font-size: .72rem; color: var(--gold-light); text-align: right; white-space: nowrap; }
+.pricing-usd { font-family: var(--font-mono); font-size: .68rem; color: var(--text-3); text-align: right; white-space: nowrap; }
+.pricing-note { padding: 1rem 1.5rem; font-size: .82rem; color: var(--text-3); font-style: italic; border-top: 1px solid var(--border-dim); }
+#editorial { background: var(--navy-1) !important; }
+.editorial-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; }
+.editorial-card { padding: 2rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.02); transition: border-color .3s, transform .3s; }
+.editorial-card:hover { border-color: var(--border); transform: translateY(-2px); }
+.editorial-card-icon { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.2rem; font-size: 1.1rem; }
+.editorial-card h3 { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--text); margin-bottom: .6rem; }
+.editorial-card p { font-size: .9rem; color: var(--text-2); }
+.editorial-link { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--font-mono); font-size: .65rem; letter-spacing: .1em; color: var(--gold-light); margin-top: 1rem; text-transform: uppercase; }
+.editorial-link:hover { color: var(--teal); }
+#philosophy { background: var(--navy-2) !important; position: relative; overflow: hidden; }
+#philosophy::before { content: '"'; position: absolute; font-family: var(--font-display); font-size: 30rem; color: rgba(200,151,42,.03); top: -8rem; left: -2rem; line-height: 1; pointer-events: none; }
+.philosophy-quote { font-family: var(--font-body); font-size: clamp(1.2rem, 2.2vw, 1.75rem); font-weight: 300; font-style: italic; color: var(--text-2); line-height: 1.7; max-width: 820px; position: relative; z-index: 1; }
+.philosophy-quote em { color: var(--gold-light); font-style: italic; }
+.philosophy-attr { font-family: var(--font-mono); font-size: .65rem; letter-spacing: .16em; color: var(--text-3); text-transform: uppercase; margin-top: 1.5rem; }
+#contact { background: var(--navy) !important; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; }
+.contact-info h3 { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--text); margin-bottom: 1rem; }
+.contact-info p { color: var(--text-2); margin-bottom: 2rem; }
+.contact-items { display: flex; flex-direction: column; gap: .8rem; }
+.contact-item { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.2rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.02); transition: border-color .2s; }
+.contact-item:hover { border-color: var(--border); }
+.contact-item-icon { font-size: 1rem; width: 24px; text-align: center; color: var(--gold-light); }
+.contact-item-text { display: flex; flex-direction: column; }
+.contact-item-label { font-family: var(--font-mono); font-size: .6rem; letter-spacing: .12em; color: var(--text-3); text-transform: uppercase; }
+.contact-item-val { font-size: .95rem; color: var(--text-2); }
+.contact-form-area h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: var(--text); margin-bottom: 1.5rem; }
+.process-steps { list-style: none; counter-reset: steps; }
+.process-step { counter-increment: steps; display: flex; gap: 1rem; padding: 1.2rem 0; border-bottom: 1px solid var(--border-dim); }
+.process-step::before { content: counter(steps, decimal-leading-zero); font-family: var(--font-mono); font-size: .7rem; color: var(--gold-dim); padding-top: .1rem; min-width: 2rem; flex-shrink: 0; }
+.process-step-title { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); margin-bottom: .3rem; }
+.process-step-desc { font-size: .9rem; color: var(--text-2); }
+footer { background: var(--navy-1); border-top: 1px solid var(--border-dim); padding: 3rem 0; }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+.footer-brand { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--gold-light); }
+.footer-brand span { color: var(--text-3); font-weight: 300; }
+.footer-links { display: flex; gap: 1.5rem; }
+.footer-links a { font-family: var(--font-mono); font-size: .65rem; letter-spacing: .1em; color: var(--text-3); text-transform: uppercase; }
+.footer-links a:hover { color: var(--gold-light); }
+.footer-copy { font-family: var(--font-mono); font-size: .62rem; color: var(--text-3); }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity .6s ease, transform .6s ease; }
+.animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+.nav-mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(7,9,15,.97); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 2rem; }
+.nav-mobile-menu.open { display: flex; }
+.nav-mobile-menu a { font-family: var(--font-display); font-size: 2rem; color: var(--text); }
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-photo-wrap { position: static; }
+  .research-grid { grid-template-columns: 1fr; }
+  .research-card.featured { grid-column: span 1; }
+  .editorial-grid { grid-template-columns: 1fr 1fr; }
+  .books-grid { grid-template-columns: 1fr; }
+  .service-panel-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .hero-stats { position: static; flex-wrap: wrap; padding: 2rem; }
+}
+@media (max-width: 600px) {
+  .editorial-grid { grid-template-columns: 1fr; }
+  .expertise-grid { grid-template-columns: 1fr; }
+  .service-tabs { overflow-x: auto; }
+}
+.scroll-indicator { position: absolute; bottom: 2rem; left: 2rem; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: .5rem; opacity: 0; animation: fadeUp 1s 1.2s forwards; }
+.scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, var(--gold), transparent); animation: scrollPulse 2s ease-in-out infinite; }
+.scroll-text { font-family: var(--font-mono); font-size: .58rem; letter-spacing: .2em; color: var(--text-3); text-transform: uppercase; writing-mode: vertical-rl; }
+@keyframes scrollPulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+.section-tag-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+.section-tag-line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--border), transparent); }
+.conf-timeline { display: flex; flex-direction: column; gap: 0; margin-top: 2rem; }
+.conf-year-block { display: grid; grid-template-columns: 80px 1fr; gap: 0 2rem; }
+.conf-year-marker { display: flex; flex-direction: column; align-items: center; padding-top: .2rem; }
+.conf-year-label { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .12em; color: var(--gold-light); white-space: nowrap; position: relative; z-index: 1; }
+.conf-year-line { flex: 1; width: 1px; background: linear-gradient(to bottom, var(--gold-dim), transparent); margin-top: .4rem; min-height: 40px; }
+.conf-events { display: flex; flex-direction: column; gap: 1.2rem; padding-bottom: 2.5rem; }
+.conf-event { padding: 1.4rem 1.6rem; border: 1px solid var(--border-dim); border-radius: var(--r); background: rgba(255,255,255,.015); position: relative; transition: border-color .3s; }
+.conf-event:hover { border-color: var(--border); }
+.conf-event::before { content: ''; position: absolute; left: -2.6rem; top: 1.4rem; width: 8px; height: 8px; border-radius: 50%; background: var(--gold-dim); border: 1px solid var(--gold-light); }
+.conf-event--invited { border-color: rgba(200,151,42,.3); background: rgba(200,151,42,.04); }
+.conf-event--invited::before { background: var(--gold-light); box-shadow: 0 0 8px rgba(200,151,42,.5); }
+.conf-event-badge { display: inline-block; font-family: var(--font-mono); font-size: .6rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-light); border: 1px solid rgba(200,151,42,.4); border-radius: 2px; padding: .15rem .6rem; margin-bottom: .6rem; }
+.conf-event-date { font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em; color: var(--teal); margin-bottom: .5rem; text-transform: uppercase; }
+.conf-event-title { font-family: var(--font-display); font-size: 1.05rem; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: .4rem; }
+.conf-event-authors { font-size: .88rem; color: var(--text-3); margin-bottom: .3rem; }
+.conf-event-authors strong { color: var(--text-2); }
+.conf-event-venue { font-size: .88rem; color: var(--text-2); margin-bottom: .2rem; font-style: italic; }
+.conf-event-host { font-size: .83rem; color: var(--text-3); }
+@media (max-width: 600px) { .conf-year-block { grid-template-columns: 52px 1fr; gap: 0 1rem; } .conf-event::before { left: -1.8rem; } }
+.portfolio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; }
+.portfolio-card { border: 1px solid var(--border-dim); border-radius: 8px; overflow: hidden; background: var(--navy-1); transition: border-color .3s, transform .3s; display: flex; flex-direction: column; }
+.portfolio-card:hover { border-color: var(--border); transform: translateY(-4px); }
+.portfolio-card--wide { grid-column: span 2; flex-direction: row; }
+.portfolio-card-preview { position: relative; min-height: 220px; overflow: hidden; flex-shrink: 0; }
+.portfolio-card-preview--wide { width: 380px; }
+.portfolio-preview-inner { position: relative; z-index: 1; padding: 2rem; height: 100%; }
+.portfolio-preview-glow { position: absolute; inset: 0; pointer-events: none; }
+.portfolio-card-body { padding: 1.8rem; flex: 1; display: flex; flex-direction: column; }
+.portfolio-card-type { font-family: var(--font-mono); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); margin-bottom: .6rem; }
+.portfolio-card-title { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--text); line-height: 1.35; margin-bottom: .8rem; }
+.portfolio-card-desc { font-size: .92rem; color: var(--text-2); line-height: 1.7; flex: 1; margin-bottom: 1.2rem;text-align: justify; }
+.portfolio-card-tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: 1.2rem; }
+.portfolio-card-link { font-family: var(--font-mono); font-size: .65rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold-light); display: inline-flex; align-items: center; gap: .3rem; margin-top: auto; }
+.portfolio-card-link:hover { color: var(--teal); }
+@media (max-width: 900px) { .portfolio-grid { grid-template-columns: 1fr; } .portfolio-card--wide { flex-direction: column; } .portfolio-card-preview--wide { width: 100%; } }
+.hero-two-col { display: grid; grid-template-columns: 1fr 420px; gap: 4rem; align-items: center; width: 100%; }
+.hero-text-col { display: flex; flex-direction: column; }
+.hero-photo-col { display: flex; justify-content: center; align-items: flex-end; }
+.hero-photo-frame { position: relative; width: 380px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 32px 80px rgba(0,0,0,.6), 0 0 0 1px rgba(200,151,42,.12); }
+.hero-photo-img { width: 100%; display: block; object-fit: cover; object-position: center top; filter: brightness(.92) contrast(1.05); transition: filter .4s; }
+.hero-photo-frame:hover .hero-photo-img { filter: brightness(1) contrast(1.05); }
+.hero-photo-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 55%, rgba(7,9,15,.7) 80%, rgba(7,9,15,.92) 100%); pointer-events: none; }
+.hero-photo-caption { position: absolute; bottom: 1rem; left: 1rem; right: 1rem; font-family: var(--font-mono); font-size: .6rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text-2); display: flex; align-items: center; gap: .5rem; }
+.hero-photo-caption-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--teal); flex-shrink: 0; animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(.8); } }
+@media (max-width: 1000px) { .hero-two-col { grid-template-columns: 1fr; } .hero-photo-col { order: -1; justify-content: flex-start; } .hero-photo-frame { width: 260px; } }
+@media (max-width: 600px) { .hero-photo-frame { width: 200px; } }
+
+/* ========== LIGHTBOX ========== */
+#photo-lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(7,9,15,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); justify-content: center; align-items: center; cursor: zoom-out; }
+#photo-lightbox.open { display: flex; animation: lbFadeIn 0.25s ease; }
+@keyframes lbFadeIn { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+#photo-lightbox img { max-width: min(90vw, 780px); max-height: 88vh; border-radius: 12px; box-shadow: 0 32px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(200,151,42,0.3); object-fit: contain; user-select: none; cursor: default; }
+#photo-lightbox .lb-close { position: absolute; top: 20px; right: 24px; width: 40px; height: 40px; border-radius: 50%; background: rgba(200,151,42,0.15); border: 1px solid rgba(200,151,42,0.4); color: #E2B45A; font-size: 20px; line-height: 40px; text-align: center; cursor: pointer; transition: background 0.2s; }
+#photo-lightbox .lb-close:hover { background: rgba(200,151,42,0.35); }
+.photo-clickable { cursor: zoom-in; }
+
+/* ========== CC LICENSE BADGE ========== */
+.cc-badge { display: inline-flex; align-items: center; gap: .4rem; font-family: var(--font-mono); font-size: .62rem; color: var(--text-3); border: 1px solid var(--border-dim); border-radius: 3px; padding: .2rem .6rem; }
+.cc-badge:hover { border-color: var(--border); color: var(--text-2); }
+</style>
+
+<!-- ========== SEO: STRUCTURED DATA (JSON-LD) ========== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Person",
+      "@id": "https://hariprasadnarayanan.github.io/#person",
+      "name": "Hariprasad Narayanan",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Academic Digital Services Professional & Independent Researcher",
+      "description": "Provider of academic digital services including LaTeX typesetting, Word-to-LaTeX conversion, conference brochure and website design, academic research websites, report design, policy briefs, molecular illustration, and science communication. PhD from IIT Madras / CUSAT.",
+      "url": "https://hariprasadnarayanan.github.io",
+      "email": "hariprasadmandur@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "560015",
+        "addressCountry": "IN"
+      },
+      "alumniOf": [
+        { "@type": "EducationalOrganization", "name": "Indian Institute of Technology Madras", "alternateName": "IIT Madras" },
+        { "@type": "EducationalOrganization", "name": "Cochin University of Science and Technology", "alternateName": "CUSAT" }
+      ],
+      "knowsAbout": [
+        "LaTeX typesetting", "Word to LaTeX conversion", "Academic website design",
+        "Conference brochure design", "Conference website design", "Report design",
+        "Policy brief writing", "Thesis formatting", "Science communication",
+        "Molecular diagram illustration", "Vector figure production",
+        "HTML CSS annual report design", "Orientation programme design",
+        "Abstract book and proceedings design", "Educational content design"
+      ],
+      "sameAs": [
+        "https://scholar.google.co.in/citations?user=yBOoLAUAAAAJ&hl=en",
+        "https://www.researchgate.net/profile/Hariprasad-Narayanan",
+        "https://www.linkedin.com/in/hariprasad-narayanan-04585b320/",
+        "https://twitter.com/hariprasadnaray",
+        "https://catalysiseducation.substack.com"
+      ]
+    },
+
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://hariprasadnarayanan.github.io/#service",
+      "name": "Academic Digital Services by Dr. Hariprasad Narayanan",
+      "description": "Domain-informed academic digital services: LaTeX typesetting, Word-to-LaTeX and Word-to-PDF conversion, conference brochure and programme design, conference website design, academic research website development, annual and technical report design, policy briefs, molecular and crystallographic illustration, science communication, and educational content design.",
+      "url": "https://hariprasadnarayanan.github.io/#services",
+      "provider": { "@id": "https://hariprasadnarayanan.github.io/#person" },
+      "areaServed": ["India", "Worldwide"],
+      "serviceType": [
+        "LaTeX Typesetting", "Word to LaTeX Conversion", "Word to PDF Conversion",
+        "Academic Website Design", "Research Group Website Design", "Conference Website Design",
+        "Conference Brochure Design", "Conference Programme Booklet Design",
+        "Abstract Book and Proceedings Design", "Orientation Programme Design",
+        "Annual Report Design", "Technical Report Design", "Policy Brief Writing",
+        "Science Communication", "Educational Content Design",
+        "Research Poster Design", "Presentation Slide Deck Design",
+        "Molecular Diagram and Illustration", "Vector Figure Production",
+        "HTML CSS Annual Report Design", "Lab Identity and Newsletter Design"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Academic Digital Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Academic & Research Website Design", "description": "Domain-informed websites for researchers, research groups, labs, departments, and conferences. Built from scratch on GitHub Pages." },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "8000", "maxPrice": "75000", "priceCurrency": "INR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "LaTeX Typesetting & Word-to-LaTeX Conversion", "description": "Publication-grade LaTeX typesetting for journal articles, book chapters, theses, and proceedings. Conversion from Word or other formats to LaTeX with editable source files." },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "3000", "maxPrice": "80000", "priceCurrency": "INR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Conference Brochure, Programme Booklet & Abstract Book Design", "description": "Print and digital brochures, programme booklets, and abstract books for academic conferences, workshops, and orientation programmes." },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": "15000", "maxPrice": "100000", "priceCurrency": "INR" }
+          }
+        ]
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://hariprasadnarayanan.github.io/#faq",
+      "mainEntity": [
+
+        {
+          "@type": "Question",
+          "name": "How do I convert a Word document to LaTeX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Converting a Word document to LaTeX requires domain-aware manual typesetting to correctly handle equations, chemical formulae, figures, tables, and bibliography — automated tools rarely produce clean output for academic content. Dr. Hariprasad Narayanan provides professional Word-to-LaTeX conversion for journal articles, book chapters, theses, and conference proceedings, with editable .tex source files delivered as standard. Rates start from ₹3,000 for journal articles. Contact: hariprasadmandur@gmail.com"
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I convert a Word document to a professional PDF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For truly professional academic PDF output, LaTeX typesetting produces publication-grade results with correct equation rendering, consistent typography, figure placement, and citation formatting — far beyond what standard Word-to-PDF export achieves. Dr. Hariprasad Narayanan offers Word-to-PDF conversion via LaTeX for journal articles, theses, book chapters, reports, and conference proceedings, with editable source files included."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I typeset a thesis or dissertation in LaTeX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LaTeX thesis typesetting involves setting up the correct chapter structure, bibliography management (BibTeX or BibLaTeX), consistent formatting for figures and tables, and compliance with university style requirements. Dr. Hariprasad Narayanan provides complete thesis and dissertation LaTeX typesetting with editable source files. Rates range from ₹15,000 to ₹35,000 depending on length and complexity."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I typeset a journal article or book chapter in LaTeX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Journal article and book chapter LaTeX typesetting requires formatting to the target publisher's style (ACS, Elsevier, RSC, Springer, etc.), correct handling of equations, chemical structures, and references. Dr. Hariprasad Narayanan provides publication-grade LaTeX typesetting for journal articles (from ₹3,000) and book chapters (from ₹6,000), with editable source files and journal-class template compliance."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I typeset conference proceedings or an abstract book in LaTeX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conference proceedings and abstract books require consistent formatting across multiple submissions, correct author and affiliation handling, table of contents generation, and print-ready PDF output. Dr. Hariprasad Narayanan provides full LaTeX typesetting for proceedings and abstract books for national and international academic conferences, with rates from ₹30,000."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design a conference brochure for an academic event?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good academic conference brochure communicates the programme overview, session schedule, invited speakers, eligibility criteria, venue, and registration details — designed for both print distribution and digital download. Dr. Hariprasad Narayanan designs conference brochures for workshops, national and international conferences, and orientation programmes. Portfolio example: the 20th Orientation Programme in Catalysis brochure, VIT Vellore (2026)."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "Where can I find a conference brochure template for an academic or scientific event?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generic conference brochure templates rarely fit the intellectual character and specific requirements of an academic event. Dr. Hariprasad Narayanan designs bespoke conference brochures built around the event theme, audience, and institution — not adapted from templates. Services cover orientation programmes, workshops, symposia, and full national or international conferences."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design a conference programme booklet or abstract book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conference programme booklets and abstract books require careful editorial structure — session layout, speaker bios, abstract formatting, sponsor pages, and print-ready PDF output. Dr. Hariprasad Narayanan designs and typesets programme booklets and abstract books for academic conferences and workshops, handling both content integration and print-production-ready layout."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I build a website for an academic conference or workshop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Academic conference websites need clear programme information, speaker profiles, registration workflow, schedule, venue details, and downloadable brochure integration. Dr. Hariprasad Narayanan designs and builds conference websites hosted on GitHub Pages — permanent, free, and version-controlled. Portfolio example: the 20th Orientation Programme in Catalysis website, VIT Vellore (vit.ac.in/conference/20opc)."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I get an academic research website built for my research group or lab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Academic research websites work best when designed by someone who understands the domain — so the typography, structure, and content hierarchy reflect the intellectual character of the research. Dr. Hariprasad Narayanan builds domain-informed websites for individual researchers, research groups, labs, and departments. Sites are hosted on GitHub Pages. Pricing starts from ₹8,000 for individual researchers and up to ₹75,000 for large department or centre sites."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design an orientation programme for new research students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A well-designed academic orientation programme is built around what students need to learn — with sessions structured to cover the foundational paradigm of each topic before current advances. Dr. Hariprasad Narayanan provides full orientation programme design including intellectual framing, session and schedule design, resource person briefing documents, programme brochure, and website."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design an annual report or technical report for a research organisation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annual and technical reports for research organisations require domain-appropriate structure, visual hierarchy, and content design that communicates impact clearly. Dr. Hariprasad Narayanan designs annual reports, technical reports, and institutional bulletins for research labs, NGOs, and government bodies — in both print-PDF and visually rich HTML formats, with domain expertise in energy, catalysis, and environmental science."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I write or design a policy brief for a research or government audience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Policy briefs translate research evidence into structured, decision-ready documents for policymakers and institutional audiences. Dr. Hariprasad Narayanan writes and designs policy briefs for energy transition, net zero, environmental science, and catalysis-related research — for NGOs, government bodies, and academic institutions."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I create a research poster for an academic conference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good academic conference poster communicates the research question, methodology, key results, and conclusion in a visually clear, hierarchical layout suitable for A0 or A1 print. Dr. Hariprasad Narayanan designs research posters for conferences and symposia, with print-ready PDF and vector output."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design a presentation slide deck for an academic talk or conference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Academic presentation slides need clean visual structure, proper handling of chemical equations, data figures, and citations — matched to the intellectual standard of the conference. Dr. Hariprasad Narayanan designs presentation slide decks for academic talks, invited lectures, and conference presentations."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I make a vector-quality figure or illustration for a journal publication?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Journal publications require figures submitted as vector files (SVG, EPS, or PDF) or high-resolution raster images (TIFF, PNG at 300–600 dpi) depending on the publisher. Dr. Hariprasad Narayanan produces publication-grade vector figures, molecular diagrams, crystallographic illustrations, and data visualisations for journal articles and book chapters."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I convert an image or figure from raster to vector format (PNG to SVG or EPS)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Converting raster images (PNG, JPG) to true vector format (SVG, EPS) for publication requires redrawing the figure as vector artwork — not just file conversion, which produces embedded rasters. Dr. Hariprasad Narayanan provides vector redrawing of academic figures, molecular diagrams, and scientific illustrations for publication-grade output."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I create a molecular diagram or crystallographic illustration for a paper or presentation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Molecular and crystallographic diagrams for academic papers and presentations are typically produced using VESTA, CrystalMaker, ChemOffice, or custom SVG illustration. Dr. Hariprasad Narayanan has professional expertise in VESTA, CrystalMaker, CrystalDiffract, and ChemOffice, and produces molecular diagrams and crystallographic illustrations as part of academic visual and print material services."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I write a science communication article or explainer for a general audience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Science communication for general audiences requires translating technical research into accessible language without losing accuracy. Dr. Hariprasad Narayanan writes science explainer articles, illustrated outreach guides, and public-facing research summaries — with domain expertise in energy systems, materials science, and environmental science. Clients include research institutions and educational organisations."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design educational content or course material for a chemistry or environmental science course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Well-designed academic educational content is structured with the foundational paradigm of the topic first, then current advances — not the reverse. Dr. Hariprasad Narayanan designs structured learning materials and explainer modules for catalysis, energy systems, and environmental science courses, following a paradigm-first teaching philosophy."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design a newsletter or bulletin for a research lab or academic institution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Research lab newsletters and institutional bulletins communicate group activities, publications, events, and people — requiring a consistent visual identity and editorial structure. Dr. Hariprasad Narayanan designs institutional newsletters and bulletins for research groups and academic organisations, with experience as copy editor for three Elsevier volumes and as founder-editor of the Catalysis Education Newsletter."
+          }
+        },
+
+        {
+          "@type": "Question",
+          "name": "How do I design a report using HTML and CSS for web-based distribution?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HTML and CSS annual reports and technical reports offer richer interactivity and visual design than static PDF — with embedded charts, responsive layout, and direct web hosting. Dr. Hariprasad Narayanan designs visually rich HTML/CSS/JS reports for research organisations, labs, and institutions, in addition to traditional LaTeX-based PDF reports."
+          }
+        }
+
+      ]
+    }
+
+  ]
+}
+</script>
+<!-- ========== END STRUCTURED DATA ========== -->
+
+
+<!-- ========== SECURITY HEADERS (meta equivalents) ========== -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' 'unsafe-inline';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src 'self' https://fonts.gstatic.com;
+  img-src 'self' data: https:;
+  connect-src 'self';
+  frame-src 'none';
+  object-src 'none';
+  base-uri 'self';
+  form-action 'self';
+  upgrade-insecure-requests;
+">
+<!-- ========== END SECURITY HEADERS ========== -->
+</head>
+<body>
+<!-- LIGHTBOX -->
+<div id="photo-lightbox" role="dialog" aria-modal="true" aria-label="Photo enlarged view" onclick="closeLightbox(event)">
+  <span class="lb-close" onclick="closeLightbox()" title="Close">&times;</span>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo" style="text-decoration:none;">Hariprasad <span>Narayanan</span></a>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#editorial">Editorial</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#conferences">Conferences</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Engage</a>
+  <div class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#hero" onclick="closeMobile()">Home</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#portfolio" onclick="closeMobile()">Portfolio</a>
+  <a href="#editorial" onclick="closeMobile()">Editorial</a>
+  <a href="#research" onclick="closeMobile()">Research</a>
+  <a href="#publications" onclick="closeMobile()">Publications</a>
+  <a href="#conferences" onclick="closeMobile()">Conferences</a>
+  <a href="#training" onclick="closeMobile()">Training</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-grain"></div>
+  <div class="hero-gradient"></div>
+  <div class="hero-content container">
+    <div class="hero-two-col">
+      <div class="hero-text-col">
+        <div class="hero-eyebrow">PhD · Independent Researcher · Bengaluru, India</div>
+        <h1 class="hero-name">Dr. <em>Hariprasad</em><br>Narayanan</h1>
+        <p class="hero-sub">Heterogeneous Catalysis. Photocatalysis. Sustainable Aviation Fuel. Industrial Decarbonization. Real Zero Emission. Green Hydrogen. Environmental and Energy Systems. Carbon Capture, Utilization and Storage (CCUS). Chemical Education. Academic Digital Services that Communicate Research at the Level It Deserves.</p>
+        <div class="hero-pills">
+          <span class="hero-pill active">CO<sub>2</sub> Conversion</span>
+          <span class="hero-pill active">Water Splitting</span>
+          <span class="hero-pill">Sustainable Aviation Fuels</span>
+          <span class="hero-pill">Green Hydrogen</span>
+          <span class="hero-pill">Industrial Decarbonization</span>
+          <span class="hero-pill">Policies for Real Zero</span>
+          <span class="hero-pill">Academic Communication</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#research" class="btn-primary">Research Portfolio</a>
+          <a href="#services" class="btn-outline">Academic Services</a>
+          <a href="#publications" class="btn-outline">Publications</a>
+        </div>
+      </div>
+      <div class="hero-photo-col">
+        <div class="hero-photo-frame">
+          <!-- ★ CHANGE 1: Hero photo — click to enlarge -->
+          <img src="assets/images/DSC004401.jpg"
+               alt="Dr. Hariprasad Narayanan presenting"
+               class="hero-photo-img photo-clickable"
+               onclick="openLightbox(this.src, this.alt)"
+               title="Click to enlarge">
+          <div class="hero-photo-overlay"></div>
+          <div class="hero-photo-caption">
+            <span class="hero-photo-caption-dot"></span>
+            Invited Talk · Bharata Mata College, 2024
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span class="scroll-text">Scroll</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo-wrap animate-on-scroll">
+        <div class="about-photo-frame" id="photo-frame">
+          <!-- ★ CHANGE 2: About profile photo — click to enlarge -->
+          <img id="profile-photo"
+               src="assets/images/hariprasad.jpeg"
+               alt="Dr. Hariprasad Narayanan"
+               style="width:100%;height:100%;object-fit:cover;object-position:center top;position:relative;z-index:1;border-radius:50%;cursor:zoom-in;"
+               onclick="openLightbox(this.src, this.alt)"
+               title="Click to enlarge">
+        </div>
+        <div class="about-links">
+          <a href="https://scholar.google.co.in/citations?user=yBOoLAUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">🎓</span> Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Hariprasad-Narayanan" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">📄</span> ResearchGate</a>
+          <a href="https://www.linkedin.com/in/hariprasad-narayanan-04585b320/" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">🔗</span> LinkedIn</a>
+          <a href="https://twitter.com/hariprasadnaray" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">𝕏</span> Twitter / X</a>
+          <a href="https://catalysiseducation.substack.com" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">✉</span> Newsletter</a>
+          <a href="https://orcid.org" target="_blank" rel="noopener noreferrer" class="about-link"><span class="about-link-icon">🆔</span> ORCID</a>
+        </div>
+      </div>
+      <div class="about-text animate-on-scroll">
+        <div class="section-label">About</div>
+        <h2 class="section-title">Researcher.<br>Communicator. Builder.</h2>
+        <div class="divider"></div>
+        <p>PhD from School of Environmental Studies, Cochin University of Science and Technology with doctoral research conducted at the National Centre for Catalysis Research, IIT Madras, under Prof. B. Viswanathan. Thesis: <em>Activation of Carbon Dioxide and Subsequent Reduction to Value-Added Chemicals and Fuels on Graphitic Carbon Nitride Surfaces</em>.</p>
+        <p>Research Associate with Prof. B. Viswanathan at the National Centre for Catalysis Research, IIT Madras, working on industrial decarbonisation and CO<sub>2</sub>-to-sustainable aviation fuel (SAF) process concepts via reverse water–gas shift and Fischer–Tropsch synthesis.</p>
+        <p>Alongside active research, I provide <strong style="color:var(--gold-light)">Academic Digital Services</strong>: domain-informed academic websites, publication-grade LaTeX typesetting, conference and orientation design, policy briefs, and science communication for researchers, labs, and institutions who need their work communicated at the level it deserves.</p>
+        <p>Co-Founder and Executive Editor of the <a href="https://catalysiseducation.substack.com" target="_blank" rel="noopener noreferrer">Catalysis Education Newsletter</a>, established together with Prof. B. Viswanathan as a non-profit open knowledge platform preserving the NCCR legacy and advancing contemporary catalysis education.</p>
+        <div class="expertise-grid">
+          <div class="expertise-card">
+            <h4>Research Domains</h4>
+            <ul>
+              <li>Catalytic CO<sub>2</sub> reduction</li>
+              <li>Heterogeneous Catalysis</li>
+              <li>Photocatalysis</li>
+              <li>Industrial Decarbonisation</li>
+              <li>Green Hydrogen Systems</li>
+              <li>Sustainable Aviation Fuels</li>
+            </ul>
+          </div>
+          <div class="expertise-card">
+            <h4>Academic Services</h4>
+            <ul>
+              <li>Academic &amp; Research Websites</li>
+              <li>LaTeX Typesetting</li>
+              <li>Conference &amp; Event Design</li>
+              <li>Policy Briefs &amp; Reports</li>
+              <li>Science Communication</li>
+            </ul>
+          </div>
+          <div class="expertise-card">
+            <h4>Technical Skills</h4>
+            <ul>
+              <li>XRD, FTIR, PL, SNMR, XPS, DRS, BET analysis</li>
+              <li>Derivative Spectroscopy</li>
+              <li>Machine Learning for Catalysis</li>
+              <li>High-pressure Parr Reactors</li>
+              <li>Gas Chromatography</li>
+            </ul>
+          </div>
+          <div class="expertise-card">
+            <h4>Qualifications</h4>
+            <ul>
+              <li>PhD Environmental Studies</li>
+              <li>M.Sc. Environmental Technology<br>Specialisation in Environmental Engineering</li>
+              <li>UGC-NET (Environmental Sciences)</li>
+              <li>International Research Proposals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section id="philosophy">
+  <div class="container">
+    <div class="animate-on-scroll" style="max-width:820px">
+      <div class="section-label">Design Philosophy</div>
+      <p class="philosophy-quote">"Every website is designed <em>from the inside out</em>. The starting point is never a template or a colour palette. It is the researcher's field, because the designer must understand the domain to build something worthy of it."</p>
+      <div class="philosophy-attr">The principle behind every academic digital services engagement</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="services-intro animate-on-scroll">
+      <div class="section-label">Academic Digital Services</div>
+      <h2 class="section-title">Your Research,<br>Communicated with Precision</h2>
+      <div class="divider"></div>
+      <p>Domain expertise in catalysis, energy systems, and environmental science means every deliverable is built with full comprehension of what is being communicated. No translation layer, no generic templates.</p>
+      <p style="margin-top:.8rem;font-family:var(--font-mono);font-size:.75rem;color:var(--teal);letter-spacing:.08em;">Academia · Government · NGOs · Decarbonisation Startups</p>
+    </div>
+    <div class="service-tabs">
+      <div class="service-tab active" onclick="switchTab('websites')">Academic Websites</div>
+      <div class="service-tab" onclick="switchTab('documents')">Documents &amp; LaTeX</div>
+      <div class="service-tab" onclick="switchTab('conferences')">Conferences &amp; Events</div>
+      <div class="service-tab" onclick="switchTab('other')">Other Services</div>
+    </div>
+    <div class="service-panel active" id="tab-websites">
+      <div class="service-panel-grid animate-on-scroll">
+        <div class="service-desc">
+          <h3>Domain-Informed Academic Websites</h3>
+          <p>Every project begins with the researcher's field, not with a template. The typography, structure, visual language, and content hierarchy all emerge from the domain itself. The design carries the intellectual character of the research it represents.</p>
+          <p>This is possible because the designer understands the domain at the level a researcher in it would.</p>
+          <ul class="service-features">
+            <li>Domain-informed visual identity and layout</li>
+            <li>All sections designed and built from scratch</li>
+            <li>Full content integration</li>
+            <li>GitHub Pages hosting (permanent, free, version-controlled)</li>
+            <li>Mobile-responsive output</li>
+            <li>Auto-sync with ORCID or Google Scholar (add-on)</li>
+            <li>Filterable publications and research output sections</li>
+            <li>Client review rounds as agreed</li>
+          </ul>
+          <a href="#contact" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">Request a Quote</a>
+        </div>
+        <div>
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-card-header"><h4>Indicative Pricing</h4><p>All projects quoted individually after a scoping discussion.</p></div>
+            <div class="pricing-table">
+              <div class="pricing-row"><div class="pricing-scope"><strong>Small</strong><br><span style="font-size:.8rem;color:var(--text-3)">Single researcher or lab, few sections, moderate content</span></div><div class="pricing-inr">₹8,000 – 18,000</div><div class="pricing-usd">$200 – $450</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Medium</strong><br><span style="font-size:.8rem;color:var(--text-3)">Research group or lab, multiple sections, rich content</span></div><div class="pricing-inr">₹18,000 – 35,000</div><div class="pricing-usd">$450 – $900</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Large</strong><br><span style="font-size:.8rem;color:var(--text-3)">Department, centre, or conference site, complex structure</span></div><div class="pricing-inr">₹35,000 – 75,000</div><div class="pricing-usd">$900 – $1,900</div></div>
+            </div>
+            <div class="pricing-note">Add-on services billed separately. PPP-adjusted international rates reflect Bengaluru cost structure, not a discount. Quality is identical.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-panel" id="tab-documents">
+      <div class="service-panel-grid animate-on-scroll">
+        <div class="service-desc">
+          <h3>Documents, Reports &amp; LaTeX Typesetting</h3>
+          <p>Research and policy documents require more than good layout. They require someone who can read the content, understand the argument, and structure the document so the right things carry weight.</p>
+          <p>Domain expertise in energy, catalysis, and environmental science means this work is done with full comprehension of what is being communicated.</p>
+          <ul class="service-features">
+            <li>Conference proceedings and abstract books</li>
+            <li>Annual and technical reports</li>
+            <li>Policy briefs for government and NGOs</li>
+            <li>Net zero and energy transition reports</li>
+            <li>Thesis and dissertation formatting</li>
+            <li>Newsletters and institutional bulletins</li>
+            <li>LaTeX for publication-grade PDF output</li>
+            <li>HTML/CSS/JS for visually rich annual reports</li>
+          </ul>
+          <a href="#contact" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">Request a Quote</a>
+        </div>
+        <div>
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-card-header"><h4>LaTeX Typesetting Rates</h4><p>Editable source files included as standard.</p></div>
+            <div class="pricing-table">
+              <div class="pricing-row"><div class="pricing-scope"><strong>Journal article</strong><br><span style="font-size:.8rem;color:var(--text-3)">Up to 15 pages</span></div><div class="pricing-inr">₹3,000 – 6,000</div><div class="pricing-usd">$80 – $160</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Book chapter</strong><br><span style="font-size:.8rem;color:var(--text-3)">15 to 40 pages</span></div><div class="pricing-inr">₹6,000 – 12,000</div><div class="pricing-usd">$160 – $320</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Thesis or dissertation</strong></div><div class="pricing-inr">₹15,000 – 35,000</div><div class="pricing-usd">$400 – $900</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Full book or proceedings</strong></div><div class="pricing-inr">₹30,000 – 80,000</div><div class="pricing-usd">$800 – $2,000</div></div>
+            </div>
+            <div class="pricing-note">Assumes clean, finalised content. Content editing billed additionally.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-panel" id="tab-conferences">
+      <div class="service-panel-grid animate-on-scroll">
+        <div class="service-desc">
+          <h3>Conference, Workshop &amp; Orientation Design</h3>
+          <p>Every event design begins with two questions: what is the theme, and who is the audience. In any academic gathering, the primary audience is graduate students and postdoctoral researchers. The programme is built around what they need to learn.</p>
+          <p>Each invited lecture is structured in two parts: the foundational paradigm of the topic first, then current advances. The default where speakers present group results to an audience without context is explicitly avoided.</p>
+          <ul class="service-features">
+            <li>Theme development and intellectual framing</li>
+            <li>Session and schedule design with learning outcomes</li>
+            <li>Resource person briefing documents</li>
+            <li>Conference website design and build</li>
+            <li>Programme booklet and abstract book</li>
+            <li>Orientation programme design for new students</li>
+          </ul>
+          <a href="#contact" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">Request a Quote</a>
+        </div>
+        <div>
+          <div class="pricing-card animate-on-scroll">
+            <div class="pricing-card-header"><h4>Event Design Rates</h4><p>Rates scale with days, session count, and deliverables.</p></div>
+            <div class="pricing-table">
+              <div class="pricing-row"><div class="pricing-scope"><strong>Orientation programme</strong><br><span style="font-size:.8rem;color:var(--text-3)">1 to 2 days</span></div><div class="pricing-inr">₹15,000 – 30,000</div><div class="pricing-usd">$400 – $800</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>Workshop</strong><br><span style="font-size:.8rem;color:var(--text-3)">1 to 3 days</span></div><div class="pricing-inr">₹20,000 – 50,000</div><div class="pricing-usd">$500 – $1,300</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>National conference</strong><br><span style="font-size:.8rem;color:var(--text-3)">2 to 3 days</span></div><div class="pricing-inr">₹30,000 – 60,000</div><div class="pricing-usd">$800 – $1,500</div></div>
+              <div class="pricing-row"><div class="pricing-scope"><strong>International conference</strong><br><span style="font-size:.8rem;color:var(--text-3)">2 to 3 days</span></div><div class="pricing-inr">₹50,000 – 1,00,000</div><div class="pricing-usd">$1,200 – $2,500</div></div>
+            </div>
+            <div class="pricing-note">Funded events billed at full rate. Student-facing events eligible for discretionary reduction. No free work.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-panel" id="tab-other">
+      <div class="animate-on-scroll" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;flex-wrap:wrap">
+        <div class="editorial-card"><div class="editorial-card-icon">🔬</div><h3>Science Communication</h3><p>Translating complex research into accessible formats for general audiences, school and public outreach, and institutional communication. Explainer articles, illustrated guides, outreach comics, public-facing research summaries.</p><span class="editorial-link">Quoted per project</span></div>
+        <div class="editorial-card"><div class="editorial-card-icon">📚</div><h3>Educational Content</h3><p>Structured learning materials, course content, and explainer modules for catalysis, energy systems, and environmental science. Designed with the foundational-first philosophy: paradigm before advances, context before detail.</p><span class="editorial-link">Quoted per project</span></div>
+        <div class="editorial-card"><div class="editorial-card-icon">🎨</div><h3>Visual &amp; Print Materials</h3><p>Research brochures, conference posters, presentation slide decks, newsletters, lab identity materials, and infographics for policy and research. All optimised for digital distribution by default.</p><span class="editorial-link">Quoted per scope</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" style="background:var(--navy)!important">
+  <div class="container">
+    <div class="animate-on-scroll">
+      <div class="section-label">Selected Work</div>
+      <h2 class="section-title">Web Design &amp;<br>Communication Portfolio</h2>
+      <div class="divider"></div>
+      <p style="max-width:640px;color:var(--text-2);font-size:1.05rem;margin-bottom:3.5rem">Websites and print materials designed for academic and research contexts — built with domain knowledge, not templates.</p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-card animate-on-scroll">
+        <div class="portfolio-card-preview" style="background:linear-gradient(135deg,#0a1628 0%,#1a2a4a 50%,#0f1e38 100%)">
+          <div class="portfolio-preview-inner">
+            <div style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.15em;color:#6ab4f5;text-transform:uppercase;margin-bottom:.6rem">vit.ac.in/conference/20opc</div>
+            <div style="font-family:var(--font-display);font-size:1.3rem;font-weight:600;color:#e8f0fc;line-height:1.2;margin-bottom:.5rem">20th Orientation<br>Programme in Catalysis</div>
+            <div style="font-family:var(--font-mono);font-size:.58rem;color:#8aacce;margin-bottom:1rem">May 4–17, 2026 · VIT Vellore</div>
+            <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(106,180,245,.3);color:#6ab4f5;border-radius:2px">Home</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(106,180,245,.2);color:#8aacce;border-radius:2px">Programme</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(106,180,245,.2);color:#8aacce;border-radius:2px">Resource Persons</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(106,180,245,.2);color:#8aacce;border-radius:2px">Contact</span>
+            </div>
+          </div>
+          <div class="portfolio-preview-glow" style="background:radial-gradient(circle at 70% 30%,rgba(106,180,245,.12),transparent 60%)"></div>
+        </div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-type">Conference Website</div>
+          <h3 class="portfolio-card-title">20th Orientation Programme in Catalysis</h3>
+          <p class="portfolio-card-desc">Full conference website for the 20th edition of India's flagship catalysis orientation programme, hosted by the CO<sub>2</sub> Research and Green Technologies Centre, VIT Vellore. Designed with the intellectual character of catalysis education, emphasizing foundational structure, clear participant information, registration workflow, and downloadable brochure integration. Built on GitHub Pages.</p>
+          <div class="portfolio-card-tags">
+            <span class="tag">Conference Site</span>
+            <span class="tag">GitHub Pages</span>
+            <span class="tag gold">Catalysis · VIT</span>
+          </div>
+          <a href="https://vit.ac.in/conference/20opc/" target="_blank" rel="noopener noreferrer" class="portfolio-card-link">View Live Site ↗</a>
+        </div>
+      </div>
+      <div class="portfolio-card animate-on-scroll">
+        <div class="portfolio-card-preview" style="background:linear-gradient(135deg,#0d1117 0%,#1c1f2e 50%,#131720 100%)">
+          <div class="portfolio-preview-inner">
+            <div style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.15em;color:#c792ea;text-transform:uppercase;margin-bottom:.6rem">yespandidurai.github.io</div>
+            <div style="font-family:var(--font-display);font-size:1.3rem;font-weight:600;color:#e8eaf6;line-height:1.2;margin-bottom:.5rem">Dr. Pandidurai Solai</div>
+            <div style="font-family:var(--font-display);font-size:.85rem;font-style:italic;color:#9e9ec0;margin-bottom:1rem">Synthetic Organic Chemist &amp; Asymmetric Catalysis</div>
+            <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(199,146,234,.3);color:#c792ea;border-radius:2px">Research</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(199,146,234,.2);color:#9e9ec0;border-radius:2px">Publications</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(199,146,234,.2);color:#9e9ec0;border-radius:2px">Patents</span>
+              <span style="font-family:var(--font-mono);font-size:.52rem;padding:.2rem .5rem;border:1px solid rgba(199,146,234,.2);color:#9e9ec0;border-radius:2px">Conferences</span>
+            </div>
+          </div>
+          <div class="portfolio-preview-glow" style="background:radial-gradient(circle at 30% 70%,rgba(199,146,234,.1),transparent 60%)"></div>
+        </div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-type">Research Portfolio Website</div>
+          <h3 class="portfolio-card-title">Dr. Pandidurai Solai — Synthetic Organic Chemist</h3>
+          <p class="portfolio-card-desc">Academic research portfolio for a postdoctoral fellow at Aix-Marseille University, France. Domain-informed visual identity drawn from synthetic organic chemistry and asymmetric catalysis. Full research narrative including publications, patents, academic journey, conferences, and scientific philosophy. Built on GitHub Pages with synthesised molecule SVG visuals.</p>
+          <div class="portfolio-card-tags">
+            <span class="tag">Research Portfolio</span>
+            <span class="tag">GitHub Pages</span>
+            <span class="tag gold">Organic Chemistry · IIT Madras</span>
+          </div>
+          <a href="https://yespandidurai.github.io/" target="_blank" rel="noopener noreferrer" class="portfolio-card-link">View Live Site ↗</a>
+        </div>
+      </div>
+      <div class="portfolio-card portfolio-card--wide animate-on-scroll">
+        <div class="portfolio-card-preview portfolio-card-preview--wide" style="background:linear-gradient(135deg,#0e1a10 0%,#1a2e1c 50%,#111f13 100%);min-height:200px">
+          <div class="portfolio-preview-inner">
+            <div style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.15em;color:#7ec88a;text-transform:uppercase;margin-bottom:.6rem">Print · PDF</div>
+            <div style="font-family:var(--font-display);font-size:1.4rem;font-weight:600;color:#e8f5e9;line-height:1.2;margin-bottom:.5rem">Orientation Programme<br>in Catalysis</div>
+            <div style="font-family:var(--font-display);font-size:.9rem;font-style:italic;color:#a5c8a8;margin-bottom:1rem">Programme Brochure — Print &amp; Digital Edition</div>
+            <div style="display:flex;gap:1.5rem">
+              <div style="text-align:center"><div style="width:44px;height:58px;border:1px solid rgba(126,200,138,.3);border-radius:3px;margin:0 auto .4rem;background:rgba(126,200,138,.05);display:flex;align-items:center;justify-content:center"><span style="font-size:1.2rem">📄</span></div><div style="font-family:var(--font-mono);font-size:.5rem;color:#7ec88a">Cover</div></div>
+              <div style="text-align:center"><div style="width:44px;height:58px;border:1px solid rgba(126,200,138,.2);border-radius:3px;margin:0 auto .4rem;background:rgba(126,200,138,.03);display:flex;align-items:center;justify-content:center"><span style="font-size:1.2rem">📋</span></div><div style="font-family:var(--font-mono);font-size:.5rem;color:#6aaa76">Programme</div></div>
+              <div style="text-align:center"><div style="width:44px;height:58px;border:1px solid rgba(126,200,138,.2);border-radius:3px;margin:0 auto .4rem;background:rgba(126,200,138,.03);display:flex;align-items:center;justify-content:center"><span style="font-size:1.2rem">👤</span></div><div style="font-family:var(--font-mono);font-size:.5rem;color:#6aaa76">Faculty</div></div>
+            </div>
+          </div>
+          <div class="portfolio-preview-glow" style="background:radial-gradient(circle at 80% 20%,rgba(126,200,138,.1),transparent 60%)"></div>
+        </div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-type">Print &amp; Digital Brochure</div>
+          <h3 class="portfolio-card-title">Orientation Programme in Catalysis — Programme Brochure</h3>
+          <p class="portfolio-card-desc">Designed the official programme brochure for the Orientation Programme in Catalysis. Covers programme overview, schedule, resource persons, eligibility, and logistical information. Produced for both print distribution and digital download, integrated directly into the conference website.</p>
+          <div class="portfolio-card-tags">
+            <span class="tag">Print Design</span>
+            <span class="tag">PDF Brochure</span>
+            <span class="tag gold">Catalysis Education</span>
+          </div>
+          <a href="https://vit.ac.in/conference/20opc/orientation_programme_brochure_v9.pdf" target="_blank" rel="noopener noreferrer" class="portfolio-card-link">View Brochure PDF ↗</a>
+        </div>
+      </div>
+
+      <!-- ── Catalysis Education Newsletter ── -->
+      <div class="portfolio-card animate-on-scroll">
+        <div class="portfolio-card-preview" style="background:linear-gradient(135deg,#0f0e17 0%,#1e1a2e 50%,#16131f 100%)">
+          <div class="portfolio-preview-inner">
+            <div style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.15em;color:#b89cec;text-transform:uppercase;margin-bottom:.6rem">catalysiseducation.substack.com</div>
+            <!-- Simulated newsletter masthead -->
+            <div style="border:1px solid rgba(184,156,236,.2);border-radius:4px;overflow:hidden;background:rgba(255,255,255,.03)">
+              <div style="background:linear-gradient(90deg,rgba(184,156,236,.15),rgba(43,207,195,.08));padding:.5rem .75rem;border-bottom:1px solid rgba(184,156,236,.12);display:flex;align-items:center;gap:.5rem">
+                <div style="width:6px;height:6px;border-radius:50%;background:#b89cec"></div>
+                <div style="font-family:var(--font-display);font-size:.75rem;font-weight:600;color:#e8e0f8;letter-spacing:.01em">Catalysis Education Newsletter</div>
+              </div>
+              <div style="padding:.6rem .75rem">
+                <div style="font-family:var(--font-mono);font-size:.5rem;color:#8a7aac;margin-bottom:.35rem;text-transform:uppercase;letter-spacing:.12em">NCCR Legacy · Alumni-Driven · Open Access</div>
+                <div style="font-family:var(--font-body);font-size:.65rem;color:#c8bfe8;line-height:1.55;margin-bottom:.5rem">Preserving the National Centre for Catalysis Research's legacy — cutting-edge catalysis knowledge for researchers worldwide.</div>
+                <div style="display:flex;gap:.35rem;flex-wrap:wrap">
+                  <span style="font-family:var(--font-mono);font-size:.48rem;padding:.18rem .45rem;border:1px solid rgba(184,156,236,.3);color:#b89cec;border-radius:2px">Issue Design</span>
+                  <span style="font-family:var(--font-mono);font-size:.48rem;padding:.18rem .45rem;border:1px solid rgba(43,207,195,.25);color:#2bcfc3;border-radius:2px">Content Strategy</span>
+                  <span style="font-family:var(--font-mono);font-size:.48rem;padding:.18rem .45rem;border:1px solid rgba(184,156,236,.2);color:#8a7aac;border-radius:2px">Editorial</span>
+                </div>
+              </div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:.5rem;color:#6a5a8a;margin-top:.5rem">Edited by Prof. B. Viswanathan · Founded 2025</div>
+          </div>
+          <div class="portfolio-preview-glow" style="background:radial-gradient(circle at 60% 40%,rgba(184,156,236,.1),transparent 60%)"></div>
+        </div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-card-type">Newsletter Design &amp; Content Management</div>
+          <h3 class="portfolio-card-title">Catalysis Education Newsletter</h3>
+          <p class="portfolio-card-desc">Founded and managed the Catalysis Education Newsletter, an alumni-driven open-access platform preserving the legacy of the National Centre for Catalysis Research (NCCR), IIT Madras. Responsible for end-to-end newsletter production including issue design on Substack, content curation and strategy, editorial coordination with Prof. B. Viswanathan, and subscriber communication. Serves researchers, PhD students, and catalysis educators worldwide.</p>
+          <div class="portfolio-card-tags">
+            <span class="tag">Newsletter Design</span>
+            <span class="tag">Content Management</span>
+            <span class="tag">Editorial</span>
+            <span class="tag gold">NCCR · IIT Madras</span>
+          </div>
+          <a href="https://catalysiseducation.substack.com/" target="_blank" rel="noopener noreferrer" class="portfolio-card-link">Read the Newsletter ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDITORIAL -->
+<section id="editorial">
+  <div class="container">
+    <div class="animate-on-scroll">
+      <div class="section-label">Editorial &amp; Research Communication</div>
+      <h2 class="section-title">Open Knowledge<br>Platform</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="editorial-grid">
+      <div class="editorial-card animate-on-scroll"><div class="editorial-card-icon" style="color:var(--gold-light)">✉</div><h3>Catalysis Education Newsletter</h3><p>Founder, Executive Editor &amp; Content Manager (non-profit). Dedicated to preserving the NCCR legacy and disseminating contemporary catalysis knowledge. Substack-based, open-access.</p><a href="https://catalysiseducation.substack.com" target="_blank" rel="noopener noreferrer" class="editorial-link">catalysiseducation.substack.com ↗</a></div>
+      <div class="editorial-card animate-on-scroll"><div class="editorial-card-icon" style="color:var(--teal)">📝</div><h3>Notes by Hariprasad Narayanan</h3><p>Personal newsletter on conversations in environmental science and engineering. Reflections, analysis, and commentary at the intersection of research, policy, and practice.</p><a href="https://hariprasadnarayanan.substack.com/" target="_blank" rel="noopener noreferrer" class="editorial-link">hariprasadnarayanan.substack.com ↗</a></div>
+      <div class="editorial-card animate-on-scroll"><div class="editorial-card-icon" style="color:var(--gold-light)">🌍</div><h3>The Bottle's Big Adventure</h3><p>Sustainability education comic for school students. Produced for IIT Madras School of Sustainability in partnership with Clean Tamil Nadu Company Limited (CTCL), 2026.</p><a href="https://drive.google.com/file/d/1qZ8MpDpIhIZn817i7SXucgy1VBWKMXI2/view" target="_blank" rel="noopener noreferrer" class="editorial-link">View Comic ↗</a></div>
+      <div class="editorial-card animate-on-scroll"><div class="editorial-card-icon" style="color:var(--text-3)">📖</div><h3>Elsevier Editorial</h3><p>Copy Editor for three Elsevier volumes: <em>Materials for Supercapacitor Applications</em> (2020), <em>Carbon Dioxide to Chemicals and Fuels</em> (2018), <em>Energy Sources: Fundamentals of Chemical Conversion</em> (2016).</p><span class="editorial-link" style="cursor:default">Elsevier · 2016–2020</span></div>
+      <div class="editorial-card animate-on-scroll"><div class="editorial-card-icon" style="color:var(--gold-light)">🤖</div><h3>AI Training &amp; Data</h3><p>Freelance PhD Data Partner (Chemistry) at TELUS Digital, designing domain-specific chemistry problems for AI training datasets. Malayalam language AI annotation specialist at Aligner.</p><span class="editorial-link" style="cursor:default">TELUS Digital · Aligner</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="container">
+    <div class="research-header animate-on-scroll">
+      <div>
+        <div class="section-label">Research Portfolio</div>
+        <h2 class="section-title">Where Light Meets<br>Carbon Dioxide</h2>
+      </div>
+      <a href="http://catalysis.eprints.iitm.ac.in/4605/" target="_blank" rel="noopener noreferrer" class="btn-outline">View PhD Thesis ↗</a>
+    </div>
+    <div class="research-grid">
+      <div class="research-card featured animate-on-scroll">
+        <svg class="molecule-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="60" cy="60" r="10" fill="none" stroke="gold" stroke-width="1.5"/>
+          <circle cx="30" cy="40" r="7" fill="none" stroke="gold" stroke-width="1.5"/>
+          <circle cx="90" cy="40" r="7" fill="none" stroke="gold" stroke-width="1.5"/>
+          <circle cx="30" cy="80" r="7" fill="none" stroke="gold" stroke-width="1.5"/>
+          <circle cx="90" cy="80" r="7" fill="none" stroke="gold" stroke-width="1.5"/>
+          <line x1="60" y1="60" x2="30" y2="40" stroke="gold" stroke-width="1"/>
+          <line x1="60" y1="60" x2="90" y2="40" stroke="gold" stroke-width="1"/>
+          <line x1="60" y1="60" x2="30" y2="80" stroke="gold" stroke-width="1"/>
+          <line x1="60" y1="60" x2="90" y2="80" stroke="gold" stroke-width="1"/>
+        </svg>
+        <div class="research-card-period">2016 to 2024 · PhD Research</div>
+        <h3>Activation of CO<sub>2</sub> and Reduction to Value-Added Chemicals on Graphitic Carbon Nitride Surfaces</h3>
+        <p>Led pioneering research on g-C<sub>3</sub>N<sub>4</sub> materials for photocatalytic CO<sub>2</sub> reduction and water splitting. Investigated 18 distinct g-C<sub>3</sub>N<sub>4</sub> systems via one-pot, ionothermal, and supramolecular-assisted eutectic synthesis. Developed novel metrics including normalized surface concentration (NSC%) and light absorption efficiency per unit surface area (DP/SA). Introduced ML-assisted structure-property-performance correlation frameworks.</p>
+        <div class="tags">
+          <span class="tag gold">C<sub>3</sub>N<sub>4</sub></span>
+          <span class="tag gold">Photocatalysis</span>
+          <span class="tag">CO<sub>2</sub> Reduction</span>
+          <span class="tag">Water Splitting</span>
+          <span class="tag teal">IIT Madras · CUSAT</span>
+        </div>
+      </div>
+      <div class="research-card animate-on-scroll">
+        <div class="research-card-period">Feb 2024 — Jun 2025 · Honorary Research Associate</div>
+        <h3>CO<sub>2</sub> to Sustainable Aviation Fuels: RWGS + Fischer–Tropsch Pathways</h3>
+        <p>Developed comprehensive process concepts for CO<sub>2</sub>-to-SAF conversion via reverse water-gas shift and Fischer-Tropsch synthesis. Contributed to international research proposal consortia involving academic and industrial partners across Europe.</p>
+        <div class="tags">
+          <span class="tag gold">CO<sub>2</sub>-to-SAF</span>
+          <span class="tag">RWGS</span>
+          <span class="tag">Fischer-Tropsch</span>
+          <span class="tag teal">International Consortia</span>
+        </div>
+      </div>
+      <div class="research-card animate-on-scroll">
+        <div class="research-card-period">Nov 2025 — Present · Independent Researcher</div>
+        <h3>Industrial Decarbonization, Green Hydrogen &amp; Net Zero Transitions</h3>
+        <p>Interdisciplinary research in industrial decarbonisation, green hydrogen systems, and sustainable energy transitions. Exploring techno-economic pathways for Net Zero in hard-to-abate sectors. Developing AI-assisted educational frameworks for catalysis and energy systems learning.</p>
+        <div class="tags">
+          <span class="tag gold">Net Zero</span>
+          <span class="tag">Green H<sub>2</sub></span>
+          <span class="tag">Decarbonisation</span>
+          <span class="tag teal">Bengaluru</span>
+        </div>
+      </div>
+      <div class="research-card animate-on-scroll">
+        <div class="research-card-period">2012 — 2016 · Early Research</div>
+        <h3>Semiconductor Photocatalysis for Hazardous Dye Removal from Wastewater</h3>
+        <p>Investigated solar-driven photocatalysis for industrial wastewater treatment. Studied advanced oxidation processes using semiconductor photocatalysts under natural sunlight. Explored TiO₂ and related systems for Rhodamine B degradation kinetics.</p>
+        <div class="tags">
+          <span class="tag">TiO<sub>2</sub> Photocatalysis</span>
+          <span class="tag">Advanced Oxidation</span>
+          <span class="tag">Wastewater</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications">
+  <div class="container">
+    <div class="animate-on-scroll">
+      <div class="section-label">Scholarly Output</div>
+      <h2 class="section-title">Publications &amp;<br>Research Output</h2>
+      <div class="divider"></div>
+    </div>
+    <h3 style="font-family:var(--font-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin:2.5rem 0 .5rem;">Journal Articles</h3>
+    <ul class="pub-list">
+      <li class="pub-item">
+        <span class="pub-num">01</span>
+        <div>
+          <div class="pub-journal">Energy &amp; Fuels · ACS · 2024</div>
+          <div class="pub-title">Enhanced Catalyst Conversion of Disaccharides to Propylene Glycol Using Metal Supported on Graphitic Carbon Nitride</div>
+          <div class="pub-authors">A. A. B. Kirali, <strong>N. Hariprasad</strong>, B. Viswanathan, P. Yadav, B. Marimuthu</div>
+          <div class="pub-year">Energy Fuels 2024, 38(8), 7005–7017</div>
+          <a href="https://pubs.acs.org/doi/10.1021/acs.energyfuels.3c05087" target="_blank" rel="noopener noreferrer" class="pub-link">View Article ↗</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <span class="pub-num">02</span>
+        <div>
+          <div class="pub-journal">Diamond &amp; Related Materials · Elsevier · 2025</div>
+          <div class="pub-title">HP-CNT/TiO<sub>2</sub> Binary Nanohybrids as Highly Efficient, Selective, and Sustainable Photocatalysts for Organic Transformations under Visible-Light Irradiation</div>
+          <div class="pub-authors">H. M. Joseph, S. Sugunan, <strong>N. Hariprasad</strong></div>
+          <div class="pub-year">Diamond Relat. Mater. 2025, 152, 111904</div>
+          <a href="https://linkinghub.elsevier.com/retrieve/pii/S0925963524011178" target="_blank" rel="noopener noreferrer" class="pub-link">View Article ↗</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <span class="pub-num">03</span>
+        <div>
+          <div class="pub-journal">Indian Journal of Chemistry A · NISCAIR · 2017</div>
+          <div class="pub-title">On the Current Status of the Mechanistic Aspects of Photocatalytic Reduction of Carbon Dioxide</div>
+          <div class="pub-authors"><strong>N. Hariprasad</strong>, M. V. Harindranathan Nair, B. Viswanathan</div>
+          <div class="pub-year">Indian J. Chem. A 2017, 56, 251–269</div>
+          <a href="http://op.niscair.res.in/index.php/IJCA/article/view/16659/465478230" target="_blank" rel="noopener noreferrer" class="pub-link">View Article ↗</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <span class="pub-num">04</span>
+        <div>
+          <div class="pub-journal">Current Catalysis · 2016</div>
+          <div class="pub-title">Photocatalytic Reduction of Carbon Dioxide: Issues and Prospects</div>
+          <div class="pub-authors"><strong>N. Hariprasad</strong>, B. Viswanathan, Y. Suguna</div>
+          <div class="pub-year">Curr. Catal. 2016, 5(2), 79–107</div>
+          <a href="https://www.researchgate.net/publication/306291123" target="_blank" rel="noopener noreferrer" class="pub-link">View Article ↗</a>
+        </div>
+      </li>
+      <li class="pub-item">
+        <span class="pub-num">05</span>
+        <div>
+          <div class="pub-journal">Res. J. Mater. Sci. · 2013</div>
+          <div class="pub-title">Sunlight-Induced Removal of Rhodamine B from Water through Semiconductor Photocatalysis: Effects of Adsorption, Reaction Conditions, and Additives</div>
+          <div class="pub-authors"><strong>N. Hariprasad</strong>, S. G. Anju, E. P. Yesodharan</div>
+          <div class="pub-year">Res. J. Mater. Sci. 2013, 1(4), 2–8</div>
+          <a href="http://www.isca.in/MATERIAL_SCI/Archive/v1/i4/2.ISCA-RJMatS-2013-019.php" target="_blank" rel="noopener noreferrer" class="pub-link">View Article ↗</a>
+        </div>
+      </li>
+    </ul>
+    <h3 style="font-family:var(--font-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin:3rem 0 1rem;">Book Chapters &amp; Monograph</h3>
+    <div class="books-grid animate-on-scroll">
+      <div class="book-card">
+        <h4>Understanding Reaction Mechanism in Photon-Assisted Reduction of Carbon Dioxide</h4>
+        <p>Photocatalytic Nanomaterials for Environmental Applications, Vol. 27, pp. 175–210</p>
+        <div class="book-publisher">Materials Research Foundations · 2018</div>
+      </div>
+      <div class="book-card">
+        <h4>Hydrogen from Photo-electrocatalytic Water Splitting</h4>
+        <p>Solar Hydrogen Production: Processes, Systems and Technologies, pp. 419–486</p>
+        <div class="book-publisher">Academic Press, Elsevier · 2019</div>
+      </div>
+      <div class="book-card">
+        <h4>Grid Energy Batteries: Transforming Power Systems for the Clean Energy Transition</h4>
+        <p>Grid Energy Batteries: From Fundamentals to Frontier Technologies</p>
+        <div class="book-publisher">CRC Press · Expected 2026</div>
+      </div>
+      <div class="book-card">
+        <h4>Perovskite Materials: An Introduction</h4>
+        <p>NCCR Internal Bulletin — Monograph</p>
+        <div class="book-publisher">IIT Madras · 2019</div>
+      </div>
+    </div>
+    <div style="margin-top:2rem" class="animate-on-scroll">
+      <a href="https://scholar.google.co.in/citations?user=yBOoLAUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="btn-outline" style="font-size:.68rem;padding:.7rem 1.4rem">View Google Scholar Profile ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONFERENCES -->
+<section id="conferences" style="background:var(--navy-1)!important">
+  <div class="container">
+    <div class="animate-on-scroll">
+      <div class="section-label">Conference Presentations</div>
+      <h2 class="section-title">Conferences &amp;<br>Invited Talks</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="conf-timeline">
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2024</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event conf-event--invited">
+            <div class="conf-event-badge">Invited Talk</div>
+            <div class="conf-event-date">March 1–2, 2024</div>
+            <div class="conf-event-title">Energy Evolution: Transitioning Beyond Fossil Fuels</div>
+            <div class="conf-event-venue">Two-Day National Conference on Fueling the Future: New Energy Alternatives</div>
+            <div class="conf-event-host">Department of Chemistry, Bharata Mata College, Thrikkakara, Kerala</div>
+            <a href="http://catalysis.eprints.iitm.ac.in/4104/" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top:.6rem">View Proceedings ↗</a>
+          </div>
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">September 18–20, 2024</div>
+            <div class="conf-event-title">Supramolecular-Assisted Eutectic Synthesis of Nickel-Incorporated Carbon Nitride Frameworks for Photon-Assisted Catalytic CO<sub>2</sub> Reduction</div>
+            <div class="conf-event-authors"><strong>N. Hariprasad</strong>, M. V. Harindranathan Nair, B. Viswanathan</div>
+            <div class="conf-event-venue">National Conference on Catalysis for Energy, Environment &amp; Sustainability (CEES-2024) &amp; 3rd CO<sub>2</sub> India Network Annual Meeting</div>
+            <div class="conf-event-host">CSIR-IICT, Hyderabad</div>
+            <a href="http://catalysis.eprints.iitm.ac.in/4207/" target="_blank" rel="noopener noreferrer" class="pub-link" style="margin-top:.6rem">View ↗</a>
+          </div>
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">February 15–16, 2024</div>
+            <div class="conf-event-title">Enhanced Catalyst Conversion of Disaccharides to Propylene Glycol Using Metal Supported on Graphitic Carbon Nitride</div>
+            <div class="conf-event-authors">A. A. B. Kirali, <strong>N. Hariprasad</strong>, B. Viswanathan, P. Yadav, B. Marimuthu</div>
+            <div class="conf-event-venue">National Workshop on Futuristic and Catalytic Processes (NWFCCP-2024)</div>
+            <div class="conf-event-host">Department of Chemistry, Central University of Kerala</div>
+          </div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2023</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">June 26–28, 2023</div>
+            <div class="conf-event-title">Sucrose Conversion to Value-Added Products Using Metal-Supported Graphitic Carbon Nitride Surfaces</div>
+            <div class="conf-event-authors">A. A. B. Kirali, <strong>N. Hariprasad</strong>, B. Viswanathan, B. Marimuthu</div>
+            <div class="conf-event-venue">3rd International Conference on Recent Trends in Analytical Chemistry (ICORTAC-2023)</div>
+            <div class="conf-event-host">University of Madras, Chennai</div>
+          </div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2018</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">January 17–19, 2018</div>
+            <div class="conf-event-title">Photon-Assisted Reduction of Carbon Dioxide on Graphitic Carbon Nitride Surfaces</div>
+            <div class="conf-event-authors"><strong>N. Hariprasad</strong>, B. Viswanathan, K. R. Krishnamurthy, M. V. Harindranathan Nair</div>
+            <div class="conf-event-venue">23rd National Symposium on Catalysis (CATSYMP-23)</div>
+            <div class="conf-event-host">Catalysis Society of India, Bengaluru Chapter</div>
+          </div>
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">January 10–12, 2018</div>
+            <div class="conf-event-title">On the Role of Surface Functionalities in the Photon-Assisted Reduction of Carbon Dioxide over Graphitic Carbon Nitride (g-C<sub>3</sub>N<sub>4</sub>) Surfaces</div>
+            <div class="conf-event-authors"><strong>N. Hariprasad</strong>, B. Viswanathan, K. R. Krishnamurthy, M. V. Harindranathan Nair</div>
+            <div class="conf-event-venue">Conference on Advances in Catalysis for Energy and Environment</div>
+            <div class="conf-event-host">Tata Institute of Fundamental Research, Mumbai</div>
+          </div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2016</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">December 17–20, 2016</div>
+            <div class="conf-event-title">Photocatalytic Reduction of Carbon Dioxide on Graphitic Carbon Nitride Surfaces</div>
+            <div class="conf-event-authors"><strong>N. Hariprasad</strong>, M. V. Harindranathan Nair, B. Viswanathan</div>
+            <div class="conf-event-venue">Fourth International Conference on Advanced Oxidation Processes</div>
+            <div class="conf-event-host">BITS Pilani K. K. Birla Goa Campus, Goa</div>
+          </div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2012</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll">
+            <div class="conf-event-date">December 8–9, 2012</div>
+            <div class="conf-event-title">Sunlight-Induced Removal of Rhodamine B from Water through Semiconductor Photocatalysis: Effects of Adsorption, Reaction Conditions and Additives</div>
+            <div class="conf-event-authors"><strong>N. Hariprasad</strong>, Anju S. G., E. P. Yesodharan, S. Yesodharan</div>
+            <div class="conf-event-venue">1st International Science Congress (ISC-2011) on Science and Technology for Sustainable Development</div>
+            <div class="conf-event-host">Bon Maharaj Engineering College, Vrindavan, Mathura, Uttar Pradesh</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING & SKILLS -->
+<section id="training" style="background:var(--navy)!important">
+  <div class="container">
+    <div class="animate-on-scroll">
+      <div class="section-label">Professional Development</div>
+      <h2 class="section-title">Training, Skills<br>&amp; Competencies</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="conf-timeline" style="margin-top:1rem">
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2026</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">February 23, 2026</div><div class="conf-event-title">SEEA – Energy (English)</div><div class="conf-event-host">United Nations Statistics Division · via the United Nations Global Platform</div></div>
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">February 23, 2026</div><div class="conf-event-title">SEEA for Policy Makers (English)</div><div class="conf-event-host">United Nations Statistics Division · via the United Nations Global Platform</div></div>
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">February 23, 2026</div><div class="conf-event-title">E-learning Course on Energy Statistics</div><div class="conf-event-host">UN Committee of Experts on Big Data and Data Science for Official Statistics · via the United Nations Global Platform</div></div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2025</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">April 21 – May 4, 2025</div><div class="conf-event-title">Characterization of Heterogeneous Catalysts: Bulk, Surface, In-Situ and Operando Methods</div><div class="conf-event-host">Prof. Miguel A. Banares · Department of Chemical Engineering, IIT Madras, Chennai</div></div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2016</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">November 5–23, 2016</div><div class="conf-event-title">Science &amp; Technology in CO₂ Conversion</div><div class="conf-event-host">Prof. Michele Aresta · Centre for Climate Change &amp; Adaptation Research, Anna University, Chennai</div></div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2014</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">December 4, 2014</div><div class="conf-event-title">National Workshop on Energy Materials (EM-2014)</div><div class="conf-event-host">Department of Physics, Cochin University of Science and Technology, Kerala</div></div>
+        </div>
+      </div>
+      <div class="conf-year-block animate-on-scroll">
+        <div class="conf-year-marker"><div class="conf-year-label">2013</div><div class="conf-year-line"></div></div>
+        <div class="conf-events">
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">December 1–18, 2013</div><div class="conf-event-title">14th Orientation Programme in Catalysis</div><div class="conf-event-host">National Centre for Catalysis Research, IIT Madras, Chennai</div></div>
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">March 26–27, 2013</div><div class="conf-event-title">Material Characterization at the Nanoscale</div><div class="conf-event-host">Sophisticated Test and Instrumentation Centre (STIC), Cochin University of Science and Technology, Kerala</div></div>
+          <div class="conf-event animate-on-scroll"><div class="conf-event-date">April 22–26, 2013</div><div class="conf-event-title">Summer School in Environmental Impact Assessment</div><div class="conf-event-host">Division of Ecological Informatics, IIITM-K, Thiruvananthapuram</div></div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:4rem">
+      <div class="section-label" style="margin-bottom:1.5rem">Skills &amp; Competencies</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem">
+        <div class="animate-on-scroll">
+          <div style="font-family:var(--font-mono);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light);margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border-dim)">Technical</div>
+          <div style="display:flex;flex-wrap:wrap;gap:.4rem">
+            <span class="tag">Analytical methods</span><span class="tag">Material synthesis</span><span class="tag">Gas chromatography</span><span class="tag">X-ray diffraction</span><span class="tag">Rietveld refinement</span><span class="tag">Derivative isotherm summation</span><span class="tag">Derivative spectroscopy</span><span class="tag">Adsorption &amp; porosity analysis</span><span class="tag">XPS</span><span class="tag">Solid-state NMR</span><span class="tag">Diffuse reflectance spectroscopy</span><span class="tag">Photoluminescence spectroscopy</span><span class="tag">Batch heterogeneous catalysis</span><span class="tag">High-pressure Parr reactors</span><span class="tag">Biomass conversion</span>
+          </div>
+        </div>
+        <div class="animate-on-scroll">
+          <div style="font-family:var(--font-mono);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light);margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border-dim)">Software</div>
+          <div style="display:flex;flex-wrap:wrap;gap:.4rem">
+            <span class="tag">MS Office</span><span class="tag">LaTeX</span><span class="tag">PANalytical X'Pert HighScore</span><span class="tag">SINGLECRYSTAL</span><span class="tag">CrystalMaker</span><span class="tag">CrystalDiffract</span><span class="tag">VESTA</span><span class="tag">OriginPro 2026</span><span class="tag">ChemOffice</span><span class="tag">CasaXPS</span><span class="tag">PeakFit</span><span class="tag">ImageJ</span><span class="tag">ASAP 2020 Plus</span><span class="tag">MNova</span><span class="tag">Visual Studio Code</span><span class="tag">Antigravity</span>
+          </div>
+        </div>
+        <div class="animate-on-scroll">
+          <div style="font-family:var(--font-mono);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light);margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border-dim)">Languages</div>
+          <div style="display:flex;flex-wrap:wrap;gap:.4rem">
+            <span class="tag teal">Malayalam</span><span class="tag teal">Tamil</span><span class="tag teal">English</span>
+          </div>
+          <p style="font-size:.85rem;color:var(--text-3);margin-top:.7rem;font-style:italic">Fluent in all three</p>
+          <div style="margin-top:2rem;padding:1.3rem;border:1px solid var(--border-dim);border-radius:6px;background:rgba(255,255,255,.02)">
+            <div style="font-family:var(--font-mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:.5rem">Certification</div>
+            <p style="font-size:.9rem;color:var(--text-2)">Qualified the <strong style="color:var(--text)">National Eligibility Test (NET) for Lectureship in Environmental Sciences</strong>, 2012 · University Grants Commission (UGC), Government of India.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info animate-on-scroll">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title">Let's Build<br>Something Rigorous</h2>
+        <div class="divider"></div>
+        <p>For research collaborations, academic digital services engagements, editorial work, or science communication, begin with an email. A short exchange will clarify the project, scope, and timeline.</p>
+        <div class="contact-items">
+          <div class="contact-item"><span class="contact-item-icon">✉</span><div class="contact-item-text"><span class="contact-item-label">Primary Email</span><span class="contact-item-val">hariprasadmandur[at]gmail[dot]com</span></div></div>
+          <div class="contact-item"><span class="contact-item-icon">✉</span><div class="contact-item-text"><span class="contact-item-label">Alternate Email</span><span class="contact-item-val">hariatharal[at]gmail[dot]com</span></div></div>
+          <a href="#" onclick="openWhatsApp(); return false;" class="contact-item"><span class="contact-item-icon">💬</span><div class="contact-item-text"><span class="contact-item-label">WhatsApp</span><span class="contact-item-val" id="phone-display"></span></div></a>
+          <a href="https://www.linkedin.com/in/hariprasad-narayanan-04585b320/" target="_blank" rel="noopener noreferrer" class="contact-item"><span class="contact-item-icon">🔗</span><div class="contact-item-text"><span class="contact-item-label">LinkedIn</span><span class="contact-item-val">hariprasad-narayanan-04585b320</span></div></a>
+          <div class="contact-item" style="cursor:default"><span class="contact-item-icon">📍</span><div class="contact-item-text"><span class="contact-item-label">Location</span><span class="contact-item-val">Jalahalli West, Bengaluru – 560015</span></div></div>
+        </div>
+      </div>
+      <div class="animate-on-scroll">
+        <div class="contact-form-area">
+          <h3>How an Engagement Works</h3>
+          <ol class="process-steps">
+            <li class="process-step"><div><div class="process-step-title">Scope First</div><div class="process-step-desc">Initial contact by email. A short exchange clarifies the project, content, timeline, and deliverables. No quote is issued before this.</div></div></li>
+            <li class="process-step"><div><div class="process-step-title">Written Agreement</div><div class="process-step-desc">Pages, revision rounds, responsibilities, and exclusions confirmed in writing before work begins.</div></div></li>
+            <li class="process-step"><div><div class="process-step-title">Client Delivers Content</div><div class="process-step-desc">All materials in organised, finalised form. Content collection work is billed additionally.</div></div></li>
+            <li class="process-step"><div><div class="process-step-title">Design &amp; Deliver</div><div class="process-step-desc">Work delivered to agreed scope. Agreed revision rounds included. Extra rounds billed at agreed rate.</div></div></li>
+          </ol>
+          <div style="margin-top:2rem;padding:1.5rem;border:1px solid var(--border);border-radius:var(--r);background:rgba(200,151,42,.05)">
+            <div style="font-family:var(--font-mono);font-size:.65rem;letter-spacing:.12em;color:var(--gold-dim);text-transform:uppercase;margin-bottom:.5rem;">One Standard of Quality</div>
+            <p style="font-size:.95rem;color:var(--text-2);font-style:italic">There are no tiers. Every project is taken to completion at the highest standard the scope allows. The quality does not change with the budget.</p>
+          </div>
+          <a href="#" onclick="openEmail(); return false;" class="btn-primary" style="display:inline-block;margin-top:1.5rem;">Begin with an Email →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ★ CHANGE 3: FOOTER with credits and CC BY-SA 4.0 -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Dr. Hariprasad Narayanan <span>/ Academic Digital Services</span></div>
+        <div class="footer-copy" style="margin-top:.4rem">Bengaluru, India · hariprasadmandur[at]gmail[dot]com</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://scholar.google.co.in/citations?user=yBOoLAUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+        <a href="https://www.researchgate.net/profile/Hariprasad-Narayanan" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+        <a href="https://catalysiseducation.substack.com" target="_blank" rel="noopener noreferrer">Newsletter</a>
+        <a href="https://twitter.com/hariprasadnaray" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </div>
+      <div style="text-align:right">
+        <div class="footer-copy">© 2026 Hariprasad Narayanan</div>
+        <div class="footer-copy" style="margin-top:.35rem">
+          Website designed &amp; built by <strong style="color:var(--text-2)">Hariprasad Narayanan</strong>
+        </div>
+        <div style="margin-top:.5rem">
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" class="cc-badge" title="Creative Commons Attribution-ShareAlike 4.0 International">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 9.5C10 8.67 10.67 8 11.5 8s1.5.67 1.5 1.5v.5h1v-.5C14 7.57 12.93 6.5 11.5 6.5S9 7.57 9 9.5v5C9 16.43 10.07 17.5 11.5 17.5S14 16.43 14 14.5v-.5h-1v.5c0 .83-.67 1.5-1.5 1.5S10 15.33 10 14.5v-5Z" fill="currentColor"/>
+            </svg>
+            CC BY-SA 4.0
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ========== SCRIPTS ========== -->
+<script>
+/* NAV scroll */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+/* Mobile menu */
+document.getElementById('hamburger').addEventListener('click', () => {
+  document.getElementById('mobileMenu').classList.toggle('open');
+});
+function closeMobile() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+/* Service tabs */
+function switchTab(id) {
+  document.querySelectorAll('.service-tab').forEach((t,i) => {
+    const ids = ['websites','documents','conferences','other'];
+    t.classList.toggle('active', ids[i] === id);
+  });
+  document.querySelectorAll('.service-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
+}
+
+/* Intersection Observer */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.animate-on-scroll, .pub-item').forEach(el => observer.observe(el));
+
+/* Hero canvas — molecular particle network */
+(function() {
+  const canvas = document.getElementById('hero-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles;
+  const COLORS = ['#C8972A', '#2BCFC3', '#8B6519', '#1A8A81'];
+  function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+  function mkParticle() { return { x: Math.random()*W, y: Math.random()*H, r: Math.random()*2.5+1, vx: (Math.random()-.5)*.35, vy: (Math.random()-.5)*.35, color: COLORS[Math.floor(Math.random()*COLORS.length)], opacity: Math.random()*.5+.1 }; }
+  function init() { resize(); particles = Array.from({length:90}, mkParticle); }
+  function tick() {
+    ctx.clearRect(0,0,W,H);
+    for (let i=0;i<particles.length;i++) { for (let j=i+1;j<particles.length;j++) { const dx=particles[i].x-particles[j].x, dy=particles[i].y-particles[j].y, dist=Math.sqrt(dx*dx+dy*dy); if (dist<150) { ctx.beginPath(); ctx.moveTo(particles[i].x,particles[i].y); ctx.lineTo(particles[j].x,particles[j].y); ctx.strokeStyle=`rgba(200,151,42,${(1-dist/150)*0.15})`; ctx.lineWidth=.6; ctx.stroke(); } } }
+    particles.forEach(p => {
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fillStyle=p.color+Math.floor(p.opacity*255).toString(16).padStart(2,'0'); ctx.fill();
+      if (p.r>2.8) { ctx.beginPath(); for (let i=0;i<6;i++) { const a=(Math.PI/3)*i-Math.PI/6, px=p.x+12*Math.cos(a), py=p.y+12*Math.sin(a); i===0?ctx.moveTo(px,py):ctx.lineTo(px,py); } ctx.closePath(); ctx.strokeStyle=p.color+'22'; ctx.lineWidth=.6; ctx.stroke(); }
+      p.x+=p.vx; p.y+=p.vy;
+      if (p.x<-20) p.x=W+20; if (p.x>W+20) p.x=-20;
+      if (p.y<-20) p.y=H+20; if (p.y>H+20) p.y=-20;
+    });
+    requestAnimationFrame(tick);
+  }
+  window.addEventListener('resize', resize);
+  init(); tick();
+})();
+
+/* Phone + email reveal */
+(function() {
+  var part1="+91", part2="94477", part3="37869";
+  var el=document.getElementById("phone-display");
+  if (el) el.textContent=part1+" "+part2+" "+part3;
+})();
+
+function openWhatsApp() {
+  var p="91"+"94477"+"37869";
+  window.open("https://wa.me/"+p,"_blank");
+}
+function openEmail() {
+  var u="hariprasadmandur", d="gmail", t="com";
+  window.location="mailto:"+u+"@"+d+"."+t;
+}
+
+/* ★ CHANGE 4: Lightbox functions */
+function openLightbox(src, alt) {
+  var lb = document.getElementById('photo-lightbox');
+  var img = document.getElementById('lb-img');
+  img.src = src;
+  img.alt = alt || '';
+  lb.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox(e) {
+  if (e && e.target && e.target.tagName === 'IMG') return;
+  var lb = document.getElementById('photo-lightbox');
+  lb.classList.remove('open');
+  document.body.style.overflow = '';
+  setTimeout(function(){ document.getElementById('lb-img').src=''; }, 300);
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeLightbox();
+});
+</script>
+</body>
+</html>

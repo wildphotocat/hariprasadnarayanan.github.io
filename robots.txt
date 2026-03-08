@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block access to any config or metadata files if present
+Disallow: /.git/
+Disallow: /_headers
+
+Sitemap: https://hariprasadnarayanan.github.io/sitemap.xml
